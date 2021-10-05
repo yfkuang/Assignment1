@@ -9,7 +9,7 @@ const port = 9000;
 
 // API / urls
 app.get('/', (req, res) => {
-    res.send("Express Hello");
+    res.send("Sports Facts");
 });
 
 app.get('/api/nba', (req, res) => {
